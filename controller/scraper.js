@@ -8,7 +8,7 @@ var request = require('request');
 var Article = require('../models/Article');
 
 // define the site we want to scrape with var
-var website = https:'www.wired.com/latest-news';
+var website = 'http/www.wired.com/latest-news';
 
 function scrapedWeb(callback) 
 {
