@@ -10,8 +10,6 @@ var routes = require('./routes/routes');
 // Initialize Express
 var app = express();
 
-
-
 // set up the HBS view engine
 app.engine('hbs', hbs({defaultLayout: 'main', extname: 'hbs', partialsDir: [__dirname + '/views/partials']}));
 app.set('view engine', 'hbs');
